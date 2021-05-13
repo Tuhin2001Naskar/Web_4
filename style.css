@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Bungee+Hairline&family=Griffy&family=Jura:wght@300&family=Merienda&family=Open+Sans+Condensed:wght@300&family=Poiret+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 115px;
+  width: 100%;
+  background-color: #7bcfb3;
+  padding: 1px;
+}
+
+.logo {
+  float: left;
+  margin-top: 22px;
+  margin-left: 110px;
+  font-family: 'Griffy', cursive;
+  text-shadow: 2px 1.5px 2px black;
+  color: #F0F8FF;
+}
+
+.description {
+  float: right;
+  margin-right: 80px;
+}
+
+.description h2 {
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: 900;
+}
+
+.description p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.navigation {
+  background-color: hsl(212, 38%, 52%);
+  overflow: hidden;
+}
+
+.navigation ul {
+  float: right;
+}
+
+.navigation>ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 40px;
+  height: 0px;
+  padding-top: 20px;
+  margin-top: -15px;
+  margin-bottom: -15px;
+  font-family: 'Jura', sans-serif;
+}
+
+.navigation>ul li a {
+  text-decoration: none;
+  color: azure;
+}
+
+.navigation ul li a:link {
+  color: azure;
+}
+
+.navigation ul li a:visited {
+  color: solid green;
+}
+
+.navigation ul li:hover {
+  background-color: #65afcc;
+  border-radius: 10px;
+
+}
+
+.navigation ul li a:hover {
+  color: #000000;
+}
+
+.navigation ul li a:active {
+  color: solid blue;
+}
+
+.banner {
+  background-image: url("Banner.png");
+  position: relative;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 600px;
+}
+
+.login {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-color: #04AA6D;
+  background-color: transparent;
+  color: green;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  margin-right: 100px;
+  margin-top: 500px;
+}
+
+.login:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.signup {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-color: #2196F3;
+  background-color: transparent;
+  color: dodgerblue;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  margin-right: 17px;
+  margin-top: 500px;
+}
+
+.signup:hover {
+  background-color: #2196F3;
+  color: white;
+}
+
+[title="nImage"] {
+  width: 500px;
+  height: 340px;
+  margin-left: 100px;
+  border-radius: 10px;
+  margin-top: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.column_1 {
+  float: left;
+  width: 50%;
+}
+
+.column_1 h3{
+  font-family: 'Merienda', cursive;
+}
+
+.column_1 p{
+  font-family: 'Antic', sans-serif;
+  font-weight: 500;
+}
+
+.row_2 {
+  float: left;
+}
+
+.row_2 p {
+  font-family: 'Antic', sans-serif;
+  font-weight: 500;
+}
+
+.column_2 {
+  float: left;
+  width: 25%;
+  padding: 0px 25px;
+  text-align: justify;
+}
+
+.column_2 h3 {
+  text-align: center;
+  font-family: 'Merienda', cursive;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  height: 200px;
+  background-color: #dde7f1;
+}
+
+.footer_navigation {
+  float: right;
+  margin-right: 100px;
+}
+
+.footer_navigation ul li {
+  list-style-type: none;
+  padding: 12px;
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+}
+
+.footer_navigation ul li:link {
+  color: black;
+}
+
+.footer_navigation ul li:visited {
+  color: green;
+}
+
+.footer_navigation ul li:hover {
+  text-decoration: 2px underline #FF7F50;
+  cursor: pointer;
+  color: #0af61e;
+}
+
+.copyright {
+  float: left;
+  text-align: center;
+  width: 75%;
+}
+
+.copyright p{
+  margin-top: 100px;
+  display: inline-block;
+  margin-left: 300px;
+  font-family: 'Merienda', cursive;
+}
